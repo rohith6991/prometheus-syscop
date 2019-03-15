@@ -63,20 +63,20 @@ scrape_configs:
   - job_name: 'api'
 
     metrics_path : '/actuator/prometheus'
-    scheme: https
+    #scheme: https
     # scheme defaults to 'http'.
 
     static_configs:
-    - targets: ['13.232.165.99:8095']
+    - targets: ['10.20.1.179:8095']
 
   - job_name: 'monitoring'
 
     metrics_path : '/actuator/prometheus'
-    scheme: https
+    #scheme: https
     # scheme defaults to 'http'.
 
     static_configs:
-    - targets: ['13.232.165.99:8018']
+    - targets: ['10.20.1.179:8018']
 
   - job_name: 'datacollector'
 
