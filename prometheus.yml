@@ -67,7 +67,7 @@ scrape_configs:
     # scheme defaults to 'http'.
 
     static_configs:
-    - targets: ['10.20.1.179:8095']
+    - targets: ['13.232.165.99:8095']
 
   - job_name: 'monitoring'
 
@@ -76,7 +76,7 @@ scrape_configs:
     # scheme defaults to 'http'.
 
     static_configs:
-    - targets: ['10.20.1.179:8018']
+    - targets: ['13.232.165.99:8018']
 
   - job_name: 'datacollector'
 
