@@ -58,7 +58,7 @@ scrape_configs:
     # scheme defaults to 'http'.
 
     static_configs:
-    - targets: ['localhost:8010'] 
+    - targets: ['10.20.1.179:8010'] 
 
   - job_name: 'api'
 
